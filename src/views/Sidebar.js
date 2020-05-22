@@ -131,11 +131,11 @@ export default function Sidebar(props) {
           </Typography>
           <Divider orientation="vertical" flexItem/>
           <Typography variant="h5"  className={classes.spacing}>
-            <Link href="/" className={classes.color}>Projects</Link>
+            <Link to="/" className={classes.color}>Projects</Link>
           </Typography>
           <Divider orientation="vertical" flexItem/>
           <Typography variant="h5"  className={classes.spacing}>
-            <Link href="/about" className={classes.color}>About Me</Link>
+            <Link to="/about" className={classes.color}>About Me</Link>
           </Typography>
           <Divider orientation="vertical" flexItem/>
         </ThemeProvider>

@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import { BrowserRouter, Route, Link } from 'react-router-dom'; 
+import { HashRouter, Route, Link } from 'react-router-dom'; 
 import Projects from './views/Projects'; 
 import About from './views/About'; 
 import Sidebar from './views/Sidebar'
@@ -28,7 +28,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
     <Sidebar>
-    <BrowserRouter>
+    <HashRouter basename="/">
       <div className="App">
   
         <Route exact path="/" component={Projects} />
@@ -43,7 +43,7 @@ function App() {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
     </Sidebar>
     </ThemeProvider>
   );

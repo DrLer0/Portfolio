@@ -20,6 +20,8 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import { HashRouter, Route, Link } from "react-router-dom";
 import { ThemeProvider, createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
+import Projects from '../views/Projects'; 
+import About from '../views/About'; 
 
 const drawerWidth = 240;
 
@@ -108,8 +110,6 @@ export default function Sidebar(props) {
 
   return (
     <HashRouter>
-    <Route exact path="/" component={Projects} />
-    <Route path="/about" component={About} />
     <div className={classes.root}>
       <CssBaseline />
       <AppBar

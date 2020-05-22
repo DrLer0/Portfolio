@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.14e8bdd0.chunk.css",
+    "main.js": "/Portfolio/static/js/main.0dff26d1.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.0dff26d1.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.db605a1d.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.db605a1d.js.map",
+    "static/js/2.18ad4046.chunk.js": "/Portfolio/static/js/2.18ad4046.chunk.js",
+    "static/js/2.18ad4046.chunk.js.map": "/Portfolio/static/js/2.18ad4046.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.7259a3262c4fcdae9e5545bec15678e1.js": "/Portfolio/precache-manifest.7259a3262c4fcdae9e5545bec15678e1.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.14e8bdd0.chunk.css.map": "/Portfolio/static/css/main.14e8bdd0.chunk.css.map",
+    "static/js/2.18ad4046.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.18ad4046.chunk.js.LICENSE.txt",
+    "static/media/Crystals.png": "/Portfolio/static/media/Crystals.882c74d3.png",
+    "static/media/FruitGifs.png": "/Portfolio/static/media/FruitGifs.53c386ea.png",
+    "static/media/Hangman.png": "/Portfolio/static/media/Hangman.92d5047b.png",
+    "static/media/RecipesFinder.png": "/Portfolio/static/media/RecipesFinder.2dea6391.png",
+    "static/media/Trivia.png": "/Portfolio/static/media/Trivia.e569da9e.png",
+    "static/media/ac-book.png": "/Portfolio/static/media/ac-book.cb44ca53.png",
+    "static/media/bmazon.png": "/Portfolio/static/media/bmazon.4b14118c.png",
+    "static/media/burger.png": "/Portfolio/static/media/burger.619b66ad.png",
+    "static/media/friendfinder.png": "/Portfolio/static/media/friendfinder.bad6fd63.png",
+    "static/media/harrypotterrpg.png": "/Portfolio/static/media/harrypotterrpg.61f80f18.png",
+    "static/media/headshot.jpg": "/Portfolio/static/media/headshot.a347e8f4.jpg",
+    "static/media/logo.svg": "/Portfolio/static/media/logo.5d5d9eef.svg",
+    "static/media/newsprint.jpg": "/Portfolio/static/media/newsprint.de058059.jpg",
+    "static/media/reactGoogle.png": "/Portfolio/static/media/reactGoogle.c90abd96.png",
+    "static/media/rock.png": "/Portfolio/static/media/rock.b8800fbc.png",
+    "static/media/spotify-this-song.png": "/Portfolio/static/media/spotify-this-song.3baec306.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.db605a1d.js",
+    "static/js/2.18ad4046.chunk.js",
+    "static/css/main.14e8bdd0.chunk.css",
+    "static/js/main.0dff26d1.chunk.js"
+  ]
+}

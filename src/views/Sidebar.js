@@ -18,7 +18,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
-import Link from '@material-ui/core/Link';
+import { HashRouter, Route, Link } from "react-router-dom";
 import { ThemeProvider, createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
 const drawerWidth = 240;
@@ -107,6 +107,9 @@ export default function Sidebar(props) {
   };
 
   return (
+    <HashRouter>
+    <Route exact path="/" component={Projects} />
+    <Route path="/about" component={About} />
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
@@ -184,5 +187,6 @@ export default function Sidebar(props) {
         {props.children}
       </main>
     </div>
+    </HashRouter>
   );
 }

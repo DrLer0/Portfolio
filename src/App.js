@@ -5,7 +5,6 @@ import Projects from './views/Projects';
 import About from './views/About'; 
 import Sidebar from './views/Sidebar'
 import './App.css';
-import Divider from '@material-ui/core/Divider';
 import { ThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 const theme = createMuiTheme({
@@ -39,7 +38,6 @@ function App() {
           <div className="navigation-sub">
                                           
             <Link to="/" className="item">Projects</Link>
-            <Divider orientation="vertical" flexItem/>
             <Link to="/about" className="item">About</Link>
   
           </div>

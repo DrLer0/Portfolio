@@ -19,6 +19,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import AccountBoxIcon from '@material-ui/icons/AccountBox';
 import Link from '@material-ui/core/Link';
+import { ThemeProvider, createMuiTheme, responsiveFontSizes } from '@material-ui/core/styles';
 
 const drawerWidth = 240;
 
@@ -93,7 +94,8 @@ const useStyles = makeStyles((theme) => ({
 
 export default function Sidebar(props) {
   const classes = useStyles();
-  const theme = useTheme();
+  let theme = createMuiTheme();
+  theme = responsiveFontSizes(theme);
   const [open, setOpen] = React.useState(false);
 
   const handleDrawerOpen = () => {
@@ -123,18 +125,20 @@ export default function Sidebar(props) {
           >
             <MenuIcon />
           </IconButton>
-          <Typography variant="h5" noWrap className={classes.spacing}>
+          <ThemeProvider theme={theme}>
+          <Typography variant="h4"  className={classes.spacing}>
             Jonathan Doctolero
           </Typography>
           <Divider orientation="vertical" flexItem/>
-          <Typography variant="h6" noWrap className={classes.spacing}>
+          <Typography variant="h5"  className={classes.spacing}>
             <Link href="/" className={classes.color}>Projects</Link>
           </Typography>
           <Divider orientation="vertical" flexItem/>
-          <Typography variant="h6" noWrap className={classes.spacing}>
+          <Typography variant="h5"  className={classes.spacing}>
             <Link href="/about" className={classes.color}>About Me</Link>
           </Typography>
           <Divider orientation="vertical" flexItem/>
+        </ThemeProvider>
         </Toolbar>
       </AppBar>
       <Drawer

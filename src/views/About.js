@@ -8,14 +8,14 @@ const useStyles = makeStyles((theme) => ({
     display: 'flex',
     flexWrap: 'wrap',
     '& > *': {
-      margin: theme.spacing(1),
+      margin: theme.spacing(2),
     },
     justifyContent: 'center'
   },
   text: {
       '& > *':{
           margin: theme.spacing(2),
-          width: theme.spacing(50),
+          width: "fit-content",
           height: "fit-content"
       }
   },
@@ -37,20 +37,20 @@ export default function About() {
   const aboutMe2=(
     <Typography variant="body1" gutterBottom>I was born in San Jose, California, and I graduated from San Jose State University with a BS in Computer Engineering in 2018. My hobbies are cooking, baking, photography, 3D printing, playing video games, and travelling. My interests include making things with my hands, learning about different things, and having fun.</Typography>
   )
-  const aboutMe3=(<Typography variant="body1" gutterBottom>With natural curiosity, I am driven to satisfy my desire to learn about and improve lives through technology; specifically, through embedded systems and computer architecture. I believe it is important to push boundaries and ideas to advance research and products to be the best that each one can become. </Typography>)
+  const aboutMe3=(<Typography variant="body1" gutterBottom>With natural curiosity, I am driven to satisfy my desire to learn about and improve lives through technology. I believe it is important to push boundaries and ideas to advance research and products to be the best that each one can become. </Typography>)
 
   return (
     <div className={classes.root}>
-      <Paper elevation={20}>
+      <Paper elevation={10}>
           {aboutMe}
       </Paper>
-      <Paper elevation={3} className={classes.text}>
+      <Paper elevation={8} className={classes.text}>
           {aboutMe2}
       </Paper>
-      <Paper elevation={3} className={classes.text}>
+      <Paper elevation={6} className={classes.text}>
           {aboutMe3}
       </Paper>
-      <Paper elevation={1} className={classes.text}>
+      <Paper elevation={4} className={classes.text}>
       <Typography>
           Proficient Skills:<br></br>
           C<br></br>C++<br></br>Python<br></br>HTML,CSS<br></br>Javascript

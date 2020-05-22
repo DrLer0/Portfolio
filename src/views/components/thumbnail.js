@@ -11,7 +11,8 @@ import SimplePopover from './simplepopover';
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    margin: theme.spacing(1)
+    margin: theme.spacing(1),
+    backgroundColor: '#80cbc4'
   },
   container: {
     display: 'flex',

@@ -109,7 +109,7 @@ export default function Sidebar(props) {
   };
 
   return (
-    <HashRouter>
+    <HashRouter basename="/">
     <div className={classes.root}>
       <CssBaseline />
       <AppBar
@@ -176,7 +176,7 @@ export default function Sidebar(props) {
             </ListItem>
         </List>
         <Divider />
-        <h4 className={classes.center}>joanthan.doctolero7@gmail.com<br/>(408)644-6865</h4>
+        <h4 className={classes.center}>jonathan.doctolero7@gmail.com<br/>(408)644-6865</h4>
       </Drawer>
       <main
         className={clsx(classes.content, {
